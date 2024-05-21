@@ -1,0 +1,108 @@
+/* style.css */
+
+/* Center content vertically and horizontally */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login Box Styles */
+.box {
+    height: 600px;
+    width: 1000px;
+    background-color: hsl(120, 3%, 22%);
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Login Form Container Styles */
+.login-container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Text Styles */
+:root {
+    --text-color: #000000; /* Default text color */
+    --text-font: Arial, sans-serif; /* Default font family */
+    --text-size: 16px; /* Default font size */
+}
+
+h1, p {
+    color: var(--text-color);
+    font-family: var(--text-font);
+    font-size: var(--text-size);
+    text-align: center;
+    padding: 0;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+/* Background Styles */
+body {
+    background-color: hsl(120, 3%, 22%);
+    margin: 0;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: hsla(150, 2%, 21%, 0.411);
+    height: 50px;
+}
+
+/* Navigation Bar Link Styles */
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+/* Form Input Styles */
+.form-group {
+
+    position: relative;
+    right: 20px;
+}
+
+/* Form Input Field Styles */
+input[type="text"],
+input[type="password"] {
+    width: 30%;
+    padding: 8px; /* Adjust padding as needed */
+    font-size: 14px; /* Adjust font size to make input fields smaller */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* Form Submit Button Styles */
+input[type="submit"] {
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Link Styles */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Link Hover Effect */
+a:hover {
+    text-decoration: underline;
+}
